@@ -1,0 +1,407 @@
+{
+  "services": [
+    {
+      "name": "OpenAI",
+      "category": "LLM",
+      "domains": [
+        "api.openai.com",
+        "chat.openai.com",
+        "openai.com",
+        "chatgpt.com",
+        "cdn.oaistatic.com",
+        "ab.chatgpt.com"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "category": "LLM",
+      "domains": [
+        "api.anthropic.com",
+        "anthropic.com",
+        "claude.ai",
+        "console.anthropic.com"
+      ]
+    },
+    {
+      "name": "Google AI",
+      "category": "LLM",
+      "domains": [
+        "generativelanguage.googleapis.com",
+        "aistudio.google.com",
+        "gemini.google.com",
+        "bard.google.com",
+        "makersuite.google.com",
+        "ai.google.dev"
+      ]
+    },
+    {
+      "name": "Microsoft Copilot",
+      "category": "LLM",
+      "domains": [
+        "copilot.microsoft.com",
+        "sydney.bing.com",
+        "edgeservices.bing.com",
+        "copilot.cloud.microsoft"
+      ]
+    },
+    {
+      "name": "GitHub Copilot",
+      "category": "Code Assistant",
+      "domains": [
+        "copilot-proxy.githubusercontent.com",
+        "api.githubcopilot.com",
+        "copilot.githubassets.com"
+      ]
+    },
+    {
+      "name": "Cohere",
+      "category": "LLM",
+      "domains": [
+        "api.cohere.ai",
+        "cohere.ai",
+        "coral.cohere.com",
+        "dashboard.cohere.ai"
+      ]
+    },
+    {
+      "name": "Hugging Face",
+      "category": "ML Platform",
+      "domains": [
+        "huggingface.co",
+        "api-inference.huggingface.co",
+        "hf.co"
+      ]
+    },
+    {
+      "name": "Replicate",
+      "category": "ML Platform",
+      "domains": [
+        "api.replicate.com",
+        "replicate.com",
+        "replicate.delivery"
+      ]
+    },
+    {
+      "name": "Stability AI",
+      "category": "Image Generation",
+      "domains": [
+        "api.stability.ai",
+        "stability.ai",
+        "dreamstudio.ai",
+        "clipdrop.co"
+      ]
+    },
+    {
+      "name": "Midjourney",
+      "category": "Image Generation",
+      "domains": [
+        "midjourney.com",
+        "www.midjourney.com",
+        "cdn.midjourney.com"
+      ]
+    },
+    {
+      "name": "DALL-E",
+      "category": "Image Generation",
+      "domains": [
+        "labs.openai.com"
+      ]
+    },
+    {
+      "name": "Perplexity",
+      "category": "AI Search",
+      "domains": [
+        "perplexity.ai",
+        "www.perplexity.ai",
+        "api.perplexity.ai"
+      ]
+    },
+    {
+      "name": "Jasper AI",
+      "category": "Content Generation",
+      "domains": [
+        "app.jasper.ai",
+        "jasper.ai",
+        "api.jasper.ai"
+      ]
+    },
+    {
+      "name": "Copy.ai",
+      "category": "Content Generation",
+      "domains": [
+        "app.copy.ai",
+        "copy.ai"
+      ]
+    },
+    {
+      "name": "Writesonic",
+      "category": "Content Generation",
+      "domains": [
+        "writesonic.com",
+        "app.writesonic.com",
+        "api.writesonic.com"
+      ]
+    },
+    {
+      "name": "Notion AI",
+      "category": "Productivity AI",
+      "domains": [
+        "api.notion.com"
+      ]
+    },
+    {
+      "name": "Grammarly AI",
+      "category": "Writing Assistant",
+      "domains": [
+        "grammarly.com",
+        "app.grammarly.com",
+        "capi.grammarly.com"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "category": "Code Assistant",
+      "domains": [
+        "cursor.sh",
+        "api2.cursor.sh",
+        "www.cursor.sh"
+      ]
+    },
+    {
+      "name": "Tabnine",
+      "category": "Code Assistant",
+      "domains": [
+        "tabnine.com",
+        "api.tabnine.com",
+        "update.tabnine.com"
+      ]
+    },
+    {
+      "name": "Codeium",
+      "category": "Code Assistant",
+      "domains": [
+        "codeium.com",
+        "api.codeium.com",
+        "server.codeium.com"
+      ]
+    },
+    {
+      "name": "Amazon Bedrock",
+      "category": "Cloud AI",
+      "domains": [
+        "bedrock.us-east-1.amazonaws.com",
+        "bedrock.us-west-2.amazonaws.com",
+        "bedrock-runtime.us-east-1.amazonaws.com",
+        "bedrock-runtime.us-west-2.amazonaws.com"
+      ]
+    },
+    {
+      "name": "Azure OpenAI",
+      "category": "Cloud AI",
+      "domains": [
+        "openai.azure.com",
+        "cognitiveservices.azure.com"
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "category": "LLM",
+      "domains": [
+        "api.deepseek.com",
+        "deepseek.com",
+        "chat.deepseek.com"
+      ]
+    },
+    {
+      "name": "Mistral AI",
+      "category": "LLM",
+      "domains": [
+        "api.mistral.ai",
+        "mistral.ai",
+        "chat.mistral.ai",
+        "console.mistral.ai"
+      ]
+    },
+    {
+      "name": "Together AI",
+      "category": "ML Platform",
+      "domains": [
+        "api.together.xyz",
+        "together.ai",
+        "together.xyz"
+      ]
+    },
+    {
+      "name": "Anyscale",
+      "category": "ML Platform",
+      "domains": [
+        "api.endpoints.anyscale.com",
+        "anyscale.com"
+      ]
+    },
+    {
+      "name": "Runway ML",
+      "category": "Video Generation",
+      "domains": [
+        "runwayml.com",
+        "app.runwayml.com",
+        "api.runwayml.com"
+      ]
+    },
+    {
+      "name": "Pika",
+      "category": "Video Generation",
+      "domains": [
+        "pika.art",
+        "api.pika.art"
+      ]
+    },
+    {
+      "name": "ElevenLabs",
+      "category": "Voice AI",
+      "domains": [
+        "api.elevenlabs.io",
+        "elevenlabs.io",
+        "beta.elevenlabs.io"
+      ]
+    },
+    {
+      "name": "Murf AI",
+      "category": "Voice AI",
+      "domains": [
+        "murf.ai",
+        "api.murf.ai",
+        "app.murf.ai"
+      ]
+    },
+    {
+      "name": "Character.AI",
+      "category": "Chatbot",
+      "domains": [
+        "character.ai",
+        "beta.character.ai",
+        "plus.character.ai"
+      ]
+    },
+    {
+      "name": "Inflection AI (Pi)",
+      "category": "Chatbot",
+      "domains": [
+        "pi.ai",
+        "inflection.ai",
+        "api.inflection.ai"
+      ]
+    },
+    {
+      "name": "Groq",
+      "category": "LLM",
+      "domains": [
+        "api.groq.com",
+        "groq.com",
+        "console.groq.com"
+      ]
+    },
+    {
+      "name": "Fireworks AI",
+      "category": "ML Platform",
+      "domains": [
+        "api.fireworks.ai",
+        "fireworks.ai",
+        "app.fireworks.ai"
+      ]
+    },
+    {
+      "name": "Leonardo AI",
+      "category": "Image Generation",
+      "domains": [
+        "leonardo.ai",
+        "app.leonardo.ai",
+        "api.leonardo.ai"
+      ]
+    },
+    {
+      "name": "Suno AI",
+      "category": "Music Generation",
+      "domains": [
+        "suno.ai",
+        "app.suno.ai",
+        "suno.com"
+      ]
+    },
+    {
+      "name": "Udio",
+      "category": "Music Generation",
+      "domains": [
+        "udio.com",
+        "www.udio.com"
+      ]
+    },
+    {
+      "name": "Synthesia",
+      "category": "Video Generation",
+      "domains": [
+        "synthesia.io",
+        "app.synthesia.io",
+        "api.synthesia.io"
+      ]
+    },
+    {
+      "name": "Descript",
+      "category": "Audio/Video AI",
+      "domains": [
+        "descript.com",
+        "app.descript.com",
+        "api.descript.com"
+      ]
+    },
+    {
+      "name": "Otter.ai",
+      "category": "Transcription",
+      "domains": [
+        "otter.ai",
+        "api.otter.ai"
+      ]
+    },
+    {
+      "name": "AssemblyAI",
+      "category": "Transcription",
+      "domains": [
+        "api.assemblyai.com",
+        "assemblyai.com"
+      ]
+    },
+    {
+      "name": "Whisper API",
+      "category": "Transcription",
+      "domains": [
+        "whisper.openai.com"
+      ]
+    },
+    {
+      "name": "xAI (Grok)",
+      "category": "LLM",
+      "domains": [
+        "api.x.ai",
+        "x.ai",
+        "grok.x.ai"
+      ]
+    },
+    {
+      "name": "Meta AI (Llama)",
+      "category": "LLM",
+      "domains": [
+        "llama.meta.com",
+        "ai.meta.com"
+      ]
+    },
+    {
+      "name": "Databricks (DBRX)",
+      "category": "ML Platform",
+      "domains": [
+        "adb-dp.azuredatabricks.net",
+        "databricks.com",
+        "e2-dogfood.staging.cloud.databricks.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Sample Squid proxy access log with shadow AI activity
+# Format: timestamp elapsed client action/code size method URL ident hierarchy/from content-type
+1718010000.000    150 192.168.1.50 TCP_MISS/200 3500 GET https://api.openai.com/v1/chat/completions - DIRECT/api.openai.com application/json
+1718010005.000     80 192.168.1.50 TCP_MISS/200 1200 GET https://www.google.com/search?q=golang+tutorial - DIRECT/www.google.com text/html
+1718010010.000    200 192.168.1.51 TCP_MISS/200 4500 POST https://api.anthropic.com/v1/messages - DIRECT/api.anthropic.com application/json
+1718010015.000     50 192.168.1.52 TCP_MISS/200 800 GET https://stackoverflow.com/questions/12345 - DIRECT/stackoverflow.com text/html
+1718010020.000    180 192.168.1.50 TCP_MISS/200 2800 POST https://api.openai.com/v1/completions - DIRECT/api.openai.com application/json
+1718010025.000     90 192.168.1.53 TCP_MISS/200 1500 GET https://github.com/org/repo/pull/42 - DIRECT/github.com text/html
+1718010030.000    300 192.168.1.54 TCP_MISS/200 5200 POST https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent - DIRECT/generativelanguage.googleapis.com application/json
+1718010035.000    120 192.168.1.51 TCP_MISS/200 900 GET https://claude.ai/chat - DIRECT/claude.ai text/html
+1718010040.000     60 192.168.1.55 TCP_MISS/200 400 GET https://news.ycombinator.com/ - DIRECT/news.ycombinator.com text/html
+1718010045.000    250 192.168.1.50 TCP_MISS/200 6000 POST https://api.openai.com/v1/chat/completions - DIRECT/api.openai.com application/json
+1718010050.000    170 192.168.1.56 TCP_MISS/200 3200 POST https://api.cohere.ai/v1/generate - DIRECT/api.cohere.ai application/json
+1718010055.000     40 192.168.1.52 TCP_MISS/200 600 GET https://docs.python.org/3/library/json.html - DIRECT/docs.python.org text/html
+1718010060.000    220 192.168.1.57 TCP_MISS/200 4100 GET https://huggingface.co/api/models - DIRECT/huggingface.co application/json
+1718010065.000    190 192.168.1.54 TCP_MISS/200 2900 POST https://api.mistral.ai/v1/chat/completions - DIRECT/api.mistral.ai application/json
+1718010070.000    280 192.168.1.58 TCP_MISS/200 7500 POST https://api.replicate.com/v1/predictions - DIRECT/api.replicate.com application/json
+1718010075.000     70 192.168.1.53 TCP_MISS/200 500 GET https://en.wikipedia.org/wiki/Go_(programming_language) - DIRECT/en.wikipedia.org text/html
+1718010080.000    310 192.168.1.50 TCP_MISS/200 4800 POST https://chat.openai.com/backend-api/conversation - DIRECT/chat.openai.com application/json
+1718010085.000    160 192.168.1.59 TCP_MISS/200 2100 GET https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions - DIRECT/copilot-proxy.githubusercontent.com application/json
+1718010090.000    140 192.168.1.51 TCP_MISS/200 3300 POST https://api.anthropic.com/v1/messages - DIRECT/api.anthropic.com application/json
+1718010095.000     55 192.168.1.60 TCP_MISS/200 700 GET https://reddit.com/r/programming - DIRECT/reddit.com text/html
+1718010100.000    230 192.168.1.61 TCP_MISS/200 2600 POST https://api.deepseek.com/v1/chat/completions - DIRECT/api.deepseek.com application/json
+1718010105.000    175 192.168.1.50 TCP_MISS/200 1900 GET https://perplexity.ai/search?q=kubernetes+networking - DIRECT/perplexity.ai text/html
+1718010110.000     45 192.168.1.52 TCP_MISS/200 350 GET https://jira.internal.corp/browse/PROJ-123 - DIRECT/jira.internal.corp text/html
+1718010115.000    260 192.168.1.62 TCP_MISS/200 8200 POST https://api.stability.ai/v1/generation/stable-diffusion-xl/text-to-image - DIRECT/api.stability.ai application/json
+1718010120.000    195 192.168.1.54 TCP_MISS/200 3700 POST https://api.groq.com/openai/v1/chat/completions - DIRECT/api.groq.com application/json
