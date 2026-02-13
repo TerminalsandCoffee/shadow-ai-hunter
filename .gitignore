@@ -4,3 +4,7 @@
 *.so
 *.dylib
 NUL
+.claude/
+.env*
+report.json
+report.csv
